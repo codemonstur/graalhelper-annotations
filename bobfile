@@ -2,5 +2,5 @@ release: 11
 version: 1.0.0
 
 build
-    echo "[${PROJECT_NAME}] Building"
+    echo [${PROJECT_NAME}] Building
     run-target -i clean build

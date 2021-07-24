@@ -1,6 +1,4 @@
+include https://raw.githubusercontent.com/codemonstur/bobfiles/master/foss-lib-github-maven
+
 release: 11
 version: 1.0.0
-
-build
-    echo [${PROJECT_NAME}] Building
-    run-target -i clean build
